@@ -18,3 +18,9 @@ function getAge(birthYear, month_born, month_day) {
 getAge(year_born, month_born, month_day);
 document.getElementById("yearsold").innerHTML =
   age + " y " + month + " m " + day + "d";
+
+
+if (month === 0 && day === 0) {
+document.getElementById("emoji").innerHTML = "🎂";
+console.log("happy birthday emma, we love you so much ❤️");
+}
