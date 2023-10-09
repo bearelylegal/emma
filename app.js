@@ -17,7 +17,7 @@ function getAge(birthYear, month_born, month_day) {
 
 getAge(year_born, month_born, month_day);
 document.getElementById("yearsold").innerHTML =
-  year + " y " + month + " m " + day + "d";
+  year + "y " + month + "m " + day + "d";
 
 
 if (month === 0 && day === 0) {
